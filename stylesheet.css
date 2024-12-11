@@ -218,7 +218,7 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 /*media queries til computer*/
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 1024px){
 
     /*====================HEADER====================*/
     /*headeren skal kører på langs*/
