@@ -25,7 +25,7 @@ ul{
 }
 
 .header__item{
-   display: block;
+    display: block;
     border-width: 2px;
     padding: 18px 20px;
     text-decoration: none;
@@ -34,7 +34,7 @@ ul{
 li:first-child{
     display: flex;
     align-self: center;
-    padding: 5px 20px
+    padding: 5px 20px;
 }
 
 /* for at holde mine anchortags(links) hvide*/
@@ -50,7 +50,7 @@ li:not(:first-child):hover{
 }
 
 /*====================INDEX====================*/
-/*billede på indexsiden (det hedder second-image, da mit first image er mit logo i headeren*/
+/*billede på indexsiden*/
 .main__image img{
     width: 499px;
     height: 370px;
@@ -94,46 +94,46 @@ li:not(:first-child):hover{
 /*====================PORTFOLIO====================*/
 /*layout til portfolio-siden*/
 .portfolio__gallery{
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-justify-content: space-between;
-align-items: center;
-background-color: #FFFFFF;
-}
-
-.portfolio__description{
-    margin-left: 26px;
-    margin-right: 30px;
-    text-align: left;
-    margin-top: 10px;
-    margin-bottom: 40px;
-}
-
-/*billeder og video + deres boks udenoms placering og størrelse på portfolio-siden*/
-.portfolio__item{
-display: flex;
-justify-content: center;
-align-items: center;
-background-color: #FFFFFF;
-width: 460px;
-height: 450px;
-border: 20px solid #08345c;
-padding: 10px;
-margin: 20px 0px;
-transition: transform .2s;
-border-radius: 25px;
-}
-
-.portfolio__item img{
-    width: 100%;
-    height: auto;
-}
-
-.portfolio__item video{
-    width: 100%;
-    height: auto;
-}
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    }
+    
+    .portfolio__description{
+        margin-left: 26px;
+        margin-right: 30px;
+        text-align: left;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    
+    /*billeder og video + deres boks udenoms placering og størrelse på portfolio-siden*/
+    .portfolio__item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    width: 460px;
+    height: 450px;
+    border: 20px solid #08345c;
+    padding: 10px;
+    margin: 20px 0px;
+    transition: transform .2s;
+    border-radius: 25px;
+    }
+    
+    .portfolio__item img{
+        width: 100%;
+        height: auto;
+    }
+    
+    .portfolio__item video{
+        width: 100%;
+        height: auto;
+    }
 
 
 /*====================BUTTON====================*/
@@ -174,10 +174,10 @@ input[type=text], select, textarea {
   resize: vertical;
 }
 
-input[type=submit__button] {
+input[type=submit] {
   background-color: #FCA311;
   color: white;
-  padding: 10px 10px;
+  padding: 12px 70px;
   border: none;
   text-align: center;
   text-decoration: none;
@@ -186,7 +186,7 @@ input[type=submit__button] {
   cursor: pointer;
 }
 
-input[type=submit__button]:hover {
+input[type=submit]:hover {
 background-color: #00A8E8; 
 box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -195,6 +195,8 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
   border-radius: 0px;
   background-color: #ececec;
   padding: 20px;
+  margin-left: 9px;
+  margin-right: 9px;
 }
 
 /*====================FOOTER====================*/
@@ -209,10 +211,9 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 /*ikoner i footeren*/
-.material-icons.md-18 footer__icon {
-    font-size: 1em;
+.material-icons.md-18{
+    font-size: 1.2em;
 }
-
 
 /*media queries til computer*/
 @media only screen and (min-width: 768px){
@@ -229,12 +230,14 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
         border-width: 0px;
         font-size: 1.5em;
         padding-bottom: 0%;
-      
+        padding-top: 24px;
     }
 
     /*logo skal blive til venstre*/
     li:first-child{
-       margin-right: auto;  
+       margin-right: auto;
+       padding-bottom: 0%;  
+       padding-top: 8px;
     }
 
     /*====================TEKST====================*/
