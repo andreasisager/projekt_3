@@ -92,23 +92,18 @@ li:not(:first-child):hover{
 }
 
 /*====================PORTFOLIO====================*/
-/*layout til portfolio-siden*/
-.main__subsubtitle--portfolio{
-    text-align: left;
-}
-
 /*billeder og video + deres boks udenoms placering og størrelse på portfolio-siden*/
 .portfolio__area {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    gap: 50px;
+    gap: 20px;
   }
   
   .container {
     position: relative;
     width: 400px;
-    height: 390px;  
+    height: 380px;  
     border: 20px solid #08345c;
   }
   
