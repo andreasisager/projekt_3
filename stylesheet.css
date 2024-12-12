@@ -283,6 +283,7 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
         height: 450px;
         margin-bottom: 50px;
         margin-left: 20px;
+        margin-top: 20px;
     }
 
     /*====================CONTACT FORM====================*/
@@ -309,9 +310,6 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
     border-radius: 15px;
     cursor: pointer;
     }
-    
-    
-
 
     /*====================BUTTON====================*/
     /* knappen skal blive større*/
