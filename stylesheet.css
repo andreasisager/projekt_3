@@ -30,6 +30,7 @@ ul{
     padding: 18px 20px;
     text-decoration: none;
 }
+
 /*logo i header*/
 li:first-child{
     display: flex;
@@ -45,8 +46,9 @@ a{
 }
 
 /* paa denne maade kommer der ikke hover-effekt over navn/logo, som altsaa er first child*/
-li:not(:first-child):hover{
-    background-color: #00A8E8;
+a:hover{
+    color: #00A8E8;
+
 }
 
 /*====================INDEX====================*/
@@ -163,6 +165,7 @@ li:not(:first-child):hover{
 }
 
 .button__text:hover {
+    color: white;
     background-color: #00A8E8; 
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -241,7 +244,7 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
         font-size: 1em;
         padding-bottom: 0%;
         padding-top: 24px;
-        padding-right: 40px;
+        padding-right: 36px;
     }
 
     /*logo skal blive til venstre*/
@@ -285,6 +288,7 @@ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
         margin-left: 20px;
         margin-top: 20px;
     }
+
 
     /*====================CONTACT FORM====================*/
     input[type=text], select, textarea {
